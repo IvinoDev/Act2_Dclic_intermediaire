@@ -1,57 +1,50 @@
-# Calculateur d'IMC
+# Projets Dart - Formation D-clic Intermédiaire
 
-Une application Dart simple pour calculer l'Indice de Masse Corporelle (IMC) et obtenir un diagnostic.
+Collection de programmes Dart développés dans le cadre de la **seconde activité de la formation en développement mobile niveau intermédiaire de D-clic (OIF)**.
 
-## Contexte
+## 📁 Projets inclus
 
-Cette application a été développée dans le cadre de la **seconde activité de la formation en développement mobile niveau intermédiaire de D-clic (OIF)**.
+### 1. **Calculateur d'IMC** (`imc_calculator.dart`)
+Calcule l'Indice de Masse Corporelle et fournit un diagnostic.
+- Saisie du poids et de la taille
+- Calcul automatique de l'IMC
+- Diagnostic selon les standards médicaux
 
-## Description
+### 2. **Manipulation de Listes** (`liste_manipulation.dart`)
+Démontre les structures de contrôle et la manipulation de listes.
+- Boucles `for` et `while`
+- Conversion de casse (majuscules/minuscules)
+- Vérification de présence et de contenu
 
-Ce programme permet de :
-- Calculer l'IMC d'une personne à partir de son poids et de sa taille
-- Fournir un diagnostic basé sur les valeurs d'IMC standard
-- Saisir la taille en centimètres pour plus de facilité
+### 3. **Fonction Reduce** (`liste_reduce.dart`)
+Utilise la fonction `reduce` pour des calculs sur des listes.
+- Calcul de la somme des éléments
+- Recherche du maximum
+- Vérification des résultats
 
-## Installation et utilisation
+### 4. **Calculateur de Racine Carrée** (`racine_carree.dart`)
+Calcule la racine carrée d'un nombre positif.
+- Saisie utilisateur avec validation
+- Calcul avec `dart:math`
+- Vérification du résultat
+
+### 5. **Structures de Contrôle Complexes** (`structures_controle.dart`)
+Parcourt une liste et applique des conditions complexes.
+- Test des multiples de 3
+- Catégorisation (Faible/Moyen/Élevé)
+- Calcul de somme conditionnelle
+
+## 🚀 Installation et utilisation
 
 1. Assurez-vous d'avoir Dart installé sur votre système
-2. Clonez ou téléchargez le fichier `imc_calculator.dart`
-3. Exécutez le programme :
+2. Clonez ou téléchargez les fichiers
+3. Exécutez n'importe quel programme :
    ```bash
-   dart run imc_calculator.dart
+   dart run nom_du_fichier.dart
    ```
 
-## Utilisation
+## 🛠️ Technologies utilisées
 
-1. Le programme vous demandera votre poids en kilogrammes
-2. Ensuite, votre taille en centimètres (ex: 170 pour 1m70)
-3. L'IMC sera calculé automatiquement
-4. Un diagnostic sera affiché selon les critères suivants :
-   - **< 18.5** : Sous-poids
-   - **18.5 - 24.9** : Poids normal
-   - **25 - 29.9** : Surpoids
-   - **≥ 30** : Obésité
-
-## Exemple
-
-```
-Bienvenue dans l'application de calcul d'IMC !
-Veuillez entrer votre poids en kilogrammes :
-70
-Veuillez entrer votre taille en centimètres (ex: 170 pour 1m70) :
-170
-
-=== RÉSULTAT ===
-Votre IMC est : 24.22
-Diagnostic : poids normal
-```
-
-## Formule
-
-IMC = poids (kg) / taille (m)²
-
-## Technologies utilisées
-
-- Dart
-- Bibliothèque dart:io pour les entrées/sorties
+- **Dart** - Langage de programmation
+- **dart:io** - Entrées/sorties console
+- **dart:math** - Fonctions mathématiques
