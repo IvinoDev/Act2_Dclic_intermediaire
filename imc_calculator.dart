@@ -13,7 +13,7 @@ void main() {
   print("Veuillez entrer votre taille en centimètres (ex: 170 pour 1m70) :");
   String? tailleInput = stdin.readLineSync();
   double tailleEnCm = double.parse(tailleInput!);
-  double taille = tailleEnCm / 100; // Conversion cm -> m
+  double taille = tailleEnCm / 100; //! Conversion cm -> m
 
   //* 6. Calculer l'IMC
   double imc = poids / (taille * taille);
